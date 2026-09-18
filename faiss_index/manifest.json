@@ -1,0 +1,23 @@
+{
+  "knowledge_base": "university_academic_rag",
+  "vector_id_mapping": "FAISS vector ID i corresponds to metadata[i] and documents[i]",
+  "files": [
+    "index.faiss",
+    "metadata.json",
+    "documents.json",
+    "config.json",
+    "requirements.txt",
+    "manifest.json"
+  ],
+  "traceability_fields": [
+    "source",
+    "file_name",
+    "page",
+    "citation",
+    "chunk_number",
+    "document_hash",
+    "chunk_id",
+    "google_drive_folder",
+    "ingestion_timestamp_utc"
+  ]
+}
